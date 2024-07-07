@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossoms</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-family: cursive;">Blossoms</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Occasion
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Birthday</a></li>
+                      <li><a class="dropdown-item" href="#">Anniversary</a></li>
+                      <li><a class="dropdown-item" href="#">Wedding</a></li>
+                      <li><a class="dropdown-item" href="#">Baby Shower</a></li>
+                      <li><a class="dropdown-item" href="#">Thank You</a></li>
+                      <li><a class="dropdown-item" href="#">Get Well Soon</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Roses</a></li>
+                      <li><a class="dropdown-item" href="#">Lilies</a></li>
+                      <li><a class="dropdown-item" href="#">Carnations</a></li>
+                      <li><a class="dropdown-item" href="#">Gerberas</a></li>
+                      <li><a class="dropdown-item" href="#">Orchids</a></li>
+                      <li><a class="dropdown-item" href="#">Sunflowers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Arrangement Type
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Flowers Boquet</a></li>
+                      <li><a class="dropdown-item" href="#">Flowers In Basket</a></li>
+                      <li><a class="dropdown-item" href="#">Flowers In Glass Vase</a></li>
+                      <li><a class="dropdown-item" href="#">Heart Shape Arrangement</a></li>
+                      <li><a class="dropdown-item" href="#">Customize Boquet</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/flower4.jpg" class="d-block w-100" alt="..." style="height: 545px;">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/flower5.jpg" class="d-block w-100" alt="..." style="height: 545px;">
+              </div>
+          <div class="carousel-item">
+            <img src="./assets/flowers3.png" class="d-block w-100" alt="..." style="height: 545px;">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/flowers8.jpg" class="d-block w-100" alt="..." style="height: 545px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="about">
+        <div class="about-img">
+        <img src="./assets/tulip-2.png" alt="" width="400px" height="500px">
+        <h2>Fresh Natural And Beautiful Flowers</h2>
+        <h4>Making Your special Day Special</h4>
+        <p>Whatever the occasion our flowers will make it special. <br>Where Flowers are our Inspiration to create Lasting Memories.</p>
+        <button type="button" class="btn btn-link">Shop Now</button>
+      </div>
+      <div class="boquets-container">
+      <h1>BOUQUETS</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/red-rose-bouquet.jpg" alt="" width="200px" height="300px" class="red-rose-img">
+            <p class="rating-review-data-1">4.6 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (135)</p>
+            <p class="name-data-1">Red Rose Bouquet</p>
+            <p class="rate-data-1">Rs. 1000</p>
+          </div>
+          <div class="col">
+            <img src="./assets/pink-rose-boquet.jpg" alt="" width="200px" height="300px" class="pink-rose-img">
+            <p class="rating-review-data-2">4.3 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (150)</p>
+            <p class="name-data-2">Pink Rose Bouquet</p>
+            <p class="rate-data-2">Rs. 1100</p>
+          </div>
+          <div class="col">
+            <img src="./assets/pink-yellow-rose-boquet.png" alt="" width="200px" height="300px" class="yellow-pink-rose-img">
+            <p class="rating-review-data-3">4.7 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (90)</p>
+            <p class="name-data-3">Yellow And Pink Rose <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bouquet</p>
+            <p class="rate-data-3">Rs. 1300</p>
+          </div>
+          <div class="col">
+            <img src="./assets/mixed-roses-boqutets.jpg" alt="" width="200px" height="300px" class="mixed-roses-img">
+            <p class="rating-review-data-4">4.4 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (156)</p>
+            <p class="name-data-4">Mixed Roses Bouquet</p>
+            <p class="rate-data-4">Rs. 1500</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/red-white-rose-boquets.jpg" alt="" width="200px" height="300px" class="red-white-rose-img">
+            <p class="rating-review-data-5">4.2 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (113)</p>
+            <p class="name-data-5">Red And White Rose <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bouquet</p>
+            <p class="rate-data-5">Rs. 1200</p>
+          </div>
+          <div class="col">
+            <img src="./assets/white-rose-boquet.png" alt="" width="200px" height="300px" class="white-rose-img">
+            <p class="rating-review-data-6">4.1 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (150)</p>
+            <p class="name-data-6">White Rose Bouquet</p>
+            <p class="rate-data-6">Rs. 900</p>
+          </div>
+          <div class="col">
+            <img src="./assets/yellow-roses-boquets.png" alt="" width="200px" height="300px" class="yellow-rose-img">
+            <p class="rating-review-data-7">4.5 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (147)</p>
+            <p class="name-data-7">Yellow Rose Bouquet</p>
+            <p class="rate-data-7">Rs. 950</p>
+          </div>
+          <div class="col">
+            <img src="./assets/orange-rose-boquet.jpg" alt="" width="200px" height="300px" class="orange-rose-img">
+            <p class="rating-review-data-8">4.3 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (175)</p>
+            <p class="name-data-8">Orange Rose Bouquet</p>
+            <p class="rate-data-8">Rs. 1100</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/pink-lilies-boquet.jpg" alt="" width="200px" height="300px" class="pink-lilies-img">
+            <p class="rating-review-data-9">4.5 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (170)</p>
+            <p class="name-data-9">Pink Lily Bouquet</p>
+            <p class="rate-data-9">Rs. 1700</p>
+          </div>
+          <div class="col">
+            <img src="./assets/white-lily-boquets.jpg" alt="" width="200px" height="300px" class="white-lily-img">
+            <p class="rating-review-data-10">4.2 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (190)</p>
+            <p class="name-data-10">White Lily Bouquet</p>
+            <p class="rate-data-10">Rs. 2000</p>
+          </div>
+          <div class="col">
+            <img src="./assets/yellow-lily-img.jpg" alt="" width="200px" height="300px" class="yellow-lily-img">
+            <p class="rating-review-data-11">4.4 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (165)</p>
+            <p class="name-data-11">Yellow Lily Bouquet</p>
+            <p class="rate-data-11">Rs. 1900</p>
+          </div>
+          <div class="col">
+            <img src="./assets/red-carnation-bouquet.png" alt="" width="200px" height="300px" class="red-carnation-img">
+            <p class="rating-review-data-12">4.4 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (156)</p>
+            <p class="name-data-12">Red Carnation Bouquet</p>
+            <p class="rate-data-12">Rs. 900</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/pink-carnation-boquet.png" alt="" width="200px" height="300px" class="pink-carnation-img">
+            <p class="rating-review-data-13">4.3 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (130)</p>
+            <p class="name-data-13">Pink Carnation Bouquet</p>
+            <p class="rate-data-13">Rs. 800</p>
+          </div>
+          <div class="col">
+            <img src="./assets/yellow-carnation-boquet.png" alt="" width="200px" height="300px" class="yellow-carnation-img">
+            <p class="rating-review-data-14">4.6 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (160)</p>
+            <p class="name-data-14">Yellow Carnation Bouquet</p>
+            <p class="rate-data-14">Rs. 700</p>
+          </div>
+          <div class="col">
+            <img src="./assets/white-carnation-boquet.png" alt="" width="200px" height="300px" class="white-carnation-img">
+            <p class="rating-review-data-15">4.8 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (142)</p>
+            <p class="name-data-15">White Carnation Bouquet</p>
+            <p class="rate-data-15">Rs. 1100</p>
+          </div>
+          <div class="col">
+            <img src="./assets/pink-white-carnation-boquet.png" alt="" width="200px" height="300px" class="pink-white-carnation-img">
+            <p class="rating-review-data-16">4.5 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (125)</p>
+            <p class="name-data-16">Pink And White Carnation <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bouquet</p>
+            <p class="rate-data-16">Rs. 1000</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/red-white-carnation-boquet.png" alt="" width="200px" height="300px" class="red-white-carnation-img">
+            <p class="rating-review-data-17">4.8 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (190)</p>
+            <p class="name-data-17">Red And White Carnation <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bouquet</p>
+            <p class="rate-data-17">Rs. 800</p>
+          </div>
+          <div class="col">
+            <img src="./assets/pink-gerbera-boquet.jpg" alt="" width="200px" height="300px" class="pink-gerbera-img">
+            <p class="rating-review-data-18">4.7 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (210)</p>
+            <p class="name-data-18">Pink Gerbera Bouquet</p>
+            <p class="rate-data-18">Rs. 1000</p>
+          </div>
+          <div class="col">
+            <img src="./assets/red-gebra-img.png" alt="" width="200px" height="300px" class="red-gerbera-img">
+            <p class="rating-review-data-19">4.4 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (160)</p>
+            <p class="name-data-19">Red Gerbera Bouquet</p>
+            <p class="rate-data-19">Rs. 1400</p>
+          </div>
+          <div class="col">
+            <img src="./assets/yellow-gerbera-boquet.png" alt="" width="200px" height="300px" class="yellow-gerbera-img">
+            <p class="rating-review-data-20">4.2 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (139)</p>
+            <p class="name-data-20">Yellow Gerbera Bouquet</p>
+            <p class="rate-data-20">Rs. 1300</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/mixed-gerbera-bouquet.png" alt="" width="200px" height="300px" class="mixed-gerbera-img">
+            <p class="rating-review-data-21">4.4 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (162)</p>
+            <p class="name-data-21">Mixed Gebera Bouquet</p>
+            <p class="rate-data-21">Rs. 1400</p>
+          </div>
+          <div class="col">
+            <img src="./assets/orange-gebera-boquet.png" alt="" width="200px" height="300px" class="orange-gerbera-img">
+            <p class="rating-review-data-22">4.5 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (140)</p>
+            <p class="name-data-22">Orange Gerbera Bouquet</p>
+            <p class="rate-data-22">Rs. 1000</p>
+          </div>
+          <div class="col">
+            <img src="./assets/purple-orchid-bouquet.png" alt="" width="200px" height="300px" class="purple-orchid-img">
+            <p class="rating-review-data-23">4.7 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (230)</p>
+            <p class="name-data-23">Purple Orchid Bouquet</p>
+            <p class="rate-data-23">Rs. 1500</p>
+          </div>
+          <div class="col">
+            <img src="./assets/blue-orchids-bouquet.png" alt="" width="200px" height="300px" class="blue-orchid-img">
+            <p class="rating-review-data-24">4.8 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (255)</p>
+            <p class="name-data-24">Blue Orchid Bouquet</p>
+            <p class="rate-data-24">Rs. 1700</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/white-orchid-bouquet.png" alt="" width="200px" height="300px" class="white-orchid-img">
+            <p class="rating-review-data-25">4.3 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (170)</p>
+            <p class="name-data-25">White Orchid Bouquet</p>
+            <p class="rate-data-25">Rs. 1400</p>
+          </div>
+          <div class="col">
+            <img src="./assets/sunflower-bouquet.jpg" alt="" width="200px" height="300px" class="sunflower-img">
+            <p class="rating-review-data-26">4.5 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (180)</p>
+            <p class="name-data-26">Sun Flower Bouquet</p>
+            <p class="rate-data-26">Rs. 1700</p>
+          </div>
+          <div class="col">
+            <img src="./assets/white-yellow-rose-pink-liliy-bouquet.png" alt="" width="200px" height="300px" class="white-yellow-rose-pink-lily-img">
+            <p class="rating-review-data-27">4.8 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (270)</p>
+            <p class="name-data-27">White, Yellow Rose, <br> &nbsp;&nbsp;Pink Lily Bouquet</p>
+            <p class="rate-data-27">Rs. 3000</p>
+          </div>
+          <div class="col">
+            <img src="./assets/pink-gerbera-pink-rose-bouquet.png" alt="" width="200px" height="300px" class="pink-gerbera-pink-rose-img">
+            <p class="rating-review-data-28">4.4 <span><i class='bx bxs-star'></i></span>&nbsp;&nbsp; (185)</p>
+            <p class="name-data-28">Pink Gerbera Pink <br> &nbsp;&nbsp;Rose Bouquet</p>
+            <p class="rate-data-28">Rs. 2400</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <footer class="footer-container">
+      <div class="footer-grid-container">
+        <div class="about-footer">
+          <h1>GET TO KNOW US</h1>
+          <p>About Us</p>
+          <p>Careers</p>
+          <p>Testimonials</p>
+          <p>Site Map</p>
+        </div>
+        <div class="customer_policy">
+          <h1>CUSTOMER POLICIES</h1>
+          <p>T&C</p>
+          <p>Terms Of Use</p>
+          <p>Security</p>
+          <p>Cancellation & Returns</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="help">
+          <h1>NEED HELP?</h1>
+          <p>Contact Us</p>
+          <p>FAQ</p>
+        </div>
+        <div class="keep-in-touch">
+          <h1>KEEP IN TOUCH</h1>
+          <div class="keep-in-touch-grid">
+            <p><a href="#" class="fb"><i class='bx bxl-facebook-circle'></i></a></p>
+            <p><a href="#" class="in"><i class='bx bxl-instagram'></i></a></p>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2024 All rights reserved.</p>
+    </footer>
+</body>
+</html>
